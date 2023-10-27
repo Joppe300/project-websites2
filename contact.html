@@ -46,7 +46,51 @@
         </div>
     </nav>
     <main class="container pb-2">
+        <h1>Contact</h1>
+        <p>Dank je wel voor je interesse in mijn professionele profiel. Als je vragen hebt, meer informatie wilt of
+            gewoon even wilt praten, ben ik altijd bereikbaar. Hier zijn verschillende manieren waarop je met me in
+            contact kunt komen:</p>
+        <h2>E-mail</h2>
+        <p>Je kunt me rechtstreeks bereiken via e-mail op r0938828@student.thomasmore.be. Ik controleer mijn inbox
+            regelmatig en zal zo snel mogelijk op je bericht reageren.</p>
+        <h2>Social Media</h2>
+        <p>Volg me op voor updates over mijn professionele activiteiten en interesses. Je kunt me ook een DM sturen als
+            je dat verkiest.</p>
+        <p>Ik kijk ernaar uit om van je te horen en om eventueel samen te werken. Bedankt voor je interesse in mijn
+            CV-website en mijn professionele achtergrond.</p>
+        <p>Met vriendelijke groet,</p>
+        <p>Joppe Ceulemans</p>
 
+        <form action="https://tm-statweb.be/sendmail.php" method="post">
+            <input type="hidden" name="studentemail" id="studentemail" value="r0938828@studet.thomasmore.be">
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-md">
+                        <label for="naam" class="form-label">Naam</label>
+                        <input type="text" class="form-control" id="naam">
+                    </div>
+                    <div class="col-md">
+                        <label for="voornaam" class="form-label">Voornaam</label>
+                        <input type="text" class="form-control" id="voornaam">
+                    </div>
+                </div>
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control mb-3" id="email" required>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>kies een skill</option>
+                    <option value="1">C++</option>
+                    <option value="2">C#</option>
+                    <option value="3">MySQL</option>
+                    <option value="4">HTML</option>
+                    <option value="5">Phyton</option>
+                </select>
+                <div class="input-group mt-3">
+                    <span class="input-group-text">uw Vraag hier</span>
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">verzenden</button>
+        </form>
     </main>
 
     <footer class="container-fluid border-top border-success">
